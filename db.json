@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "API Integration",
+      "description": "Connect frontend to REST API endpoints and handle auth headers",
+      "column": "backlog",
+      "priority": "high",
+      "createdAt": "2024-03-01T09:00:00.000Z"
+    },
+    {
+      "id": "t2",
+      "title": "Unit Tests",
+      "description": "Write tests for utility functions and custom hooks",
+      "column": "backlog",
+      "priority": "low",
+      "createdAt": "2024-03-02T09:00:00.000Z"
+    },
+    {
+      "id": "t3",
+      "title": "Performance Audit",
+      "description": "Lighthouse scores, bundle analysis and code splitting",
+      "column": "backlog",
+      "priority": "low",
+      "createdAt": "2024-03-03T09:00:00.000Z"
+    },
+    {
+      "id": "t4",
+      "title": "Notification System",
+      "description": "Toast notifications and in-app alert banners",
+      "column": "backlog",
+      "priority": "medium",
+      "createdAt": "2024-03-04T09:00:00.000Z"
+    },
+    {
+      "id": "t5",
+      "title": "User Settings Page",
+      "description": "Profile editing, preferences, and account management",
+      "column": "backlog",
+      "priority": "low",
+      "createdAt": "2024-03-05T09:00:00.000Z"
+    },
+    {
+      "id": "t6",
+      "title": "Authentication Flow",
+      "description": "Login, signup, password reset, and session management",
+      "column": "in_progress",
+      "priority": "high",
+      "createdAt": "2024-03-06T09:00:00.000Z"
+    },
+    {
+      "id": "t7",
+      "title": "File Upload Component",
+      "description": "Drag-and-drop file upload with preview and progress tracking",
+      "column": "in_progress",
+      "priority": "medium",
+      "createdAt": "2024-03-07T09:00:00.000Z"
+    },
+    {
+      "id": "t8",
+      "title": "Dark Mode Support",
+      "description": "Theme toggle with CSS variable switching and persistence",
+      "column": "review",
+      "priority": "medium",
+      "createdAt": "2024-03-08T09:00:00.000Z"
+    },
+    {
+      "id": "t9",
+      "title": "Dashboard Layout",
+      "description": "Responsive sidebar and main content area with breakpoints",
+      "column": "review",
+      "priority": "medium",
+      "createdAt": "2024-03-09T09:00:00.000Z"
+    },
+    {
+      "id": "t10",
+      "title": "Design System Tokens",
+      "description": "Color palette, typography scale, and spacing system",
+      "column": "done",
+      "priority": "high",
+      "createdAt": "2024-03-10T09:00:00.000Z"
+    }
+  ]
+}

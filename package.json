@@ -1,0 +1,38 @@
+{
+  "name": "kanban-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"json-server --watch db.json --port 4000\"",
+    "dev:app": "next dev",
+    "dev:api": "json-server --watch db.json --port 4000",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@tanstack/react-query": "^5.28.4",
+    "@tanstack/react-query-devtools": "^5.28.4",
+    "axios": "^1.6.7",
+    "next": "^16.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "concurrently": "^8.2.2",
+    "json-server": "^0.17.4",
+    "typescript": "^5.4.2"
+  }
+}
