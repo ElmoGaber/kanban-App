@@ -2,7 +2,6 @@
 
 A production-grade Kanban task management application built with React, Zustand, React Query, and Material UI.
 
-![Kanban Board Preview](./preview.png)
 
 ---
 
