@@ -171,6 +171,7 @@ Then deploy the `dist/` folder to any static host (Vercel, Netlify, GitHub Pages
 > **Note**: For production, replace json-server with a real REST API. The `src/utils/api.js` file is the only place you need to update the `baseURL`.
 
 ---
+<img width="1656" height="875" alt="image" src="https://github.com/user-attachments/assets/3f1e9087-7c39-4946-86c8-7550656035cc" />
 
 ## 📝 License
 
